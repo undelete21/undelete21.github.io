@@ -6,7 +6,7 @@
     background:url("../images/images.jpg");
     width: 1600px;
 }
-h1{
+.header h1{
     font-size: 62px;
     font-weight: normal;
     text-align: center;
@@ -27,7 +27,7 @@ h1{
     margin-top: 103px;
     border: 1px solid rgb(223,227,232);
 }
-h2{
+.nav h2{
     font-size: 16px;
     color: rgba(255,255,255,1);
     margin-top: 50px;
@@ -37,10 +37,10 @@ h2{
     color: rgba(255,255,255,0.3);
     margin-top: 19px;
 }
-h2,.name{
+.nav h2,.name{
     text-align: center;
 }
-input{
+.nav input{
     height: 50px;
     margin-right: 30px;
     margin-top: 45px;
@@ -61,6 +61,7 @@ input{
     color: rgba(225,225,225,0.3);
 }
 .sure{
+    height: 50px;
     width:125px;
     font-size: 12px;
     color: black;
@@ -72,7 +73,7 @@ input{
     height: 710px;
     background-color: white;
 }
-h3{
+.feature h2{
     font-size: 14px;
     text-align: center;
     padding-top: 89px;
@@ -82,4 +83,295 @@ h3{
     width:770px;
     text-align: center;
     margin-top: 39px;
+}
+.wrap{
+    margin-top: 85px;
+    width: 1034px;
+}
+.lists ul{
+    font-size: 20px;
+}
+.lists li{
+    font-size: 16px;
+    list-style-type: none;
+    width: 357px;
+    float: left;
+    margin-top: 25px;
+    line-height: 26px;
+}
+.lists{
+    width: 517px;
+    float: left;
+    margin-bottom: 82px;
+}
+.lists img{
+    float: left;
+}
+.text{
+    width: 1600px;
+    height: 800px;
+    background: url("../images/background02.jpg");
+    position: relative;
+}
+.text h2{
+    width: 370px;
+    color: rgba(225,225,225,1);
+    padding-top: 184px;
+    margin-left: 317px;
+}
+.text p{
+    width: 370px;
+    height: 136px;
+    color: rgba(225,225,225,0.7);
+    margin-left: 317px;
+    margin-top: 48px;
+}
+.text h3{
+    width: 241px;
+    height: 62px;
+    font-size: 12px;
+    text-align: center;
+    line-height: 62px;
+    margin-top: 59px;
+    float: left;
+    color: white;
+    border: 1px solid rgba(225,225,225,0.3);
+}
+.check{
+    margin-left: 317px;
+    margin-right: 31px;
+}
+.dow-content{
+    /*transition: opacity 0.3s ease-in-out;*/
+    width: 644px;
+    height: 600px;
+    border: 1px solid rgba(225,225,225,0.3);
+    position: absolute;
+    top:108px;
+    right: 0;
+    border-radius:40px 0 0 40px;
+    display: none;
+    /*opacity: 0;*/
+}
+.screen{
+    width: 585px;
+    height: 542px;
+    background: url("../images/image05.jpg");
+    float: right;
+    margin-top: 30px;
+}
+.check:hover{
+    border: 1px solid rgba(225,225,225,1);
+    color: black;
+    background: white;
+}
+.down:hover .dow-content{
+    display: block;
+    /*opacity: 1;*/
+}
+.logo{
+    width: 1600px;
+    height: 580px;
+    border-bottom:1px solid rgba(225,225,225,0.3);
+}
+.logo h2{
+    font-size: 42px;
+    color: black;
+    text-align: center;
+    padding-top: 100px;
+}
+.subtitle p{
+    font-size:16px;
+    text-align: center;
+    line-height: 26px;
+    margin-top: 85px;
+    width: 265px;
+    padding-top: 70px;
+    float: left;
+    margin-right: 85px;
+}
+.Singleton{
+    background: url("../images/image06.jpg");
+    margin-left: 332px;
+}
+.hero{
+    background: url("../images/image07.jpg");
+}
+.Portland{
+    background: url("../images/image08.jpg");
+}
+.photo{
+    width: 1600px;
+    height: 1000px;
+    border-bottom:1px solid rgba(225,225,225,0.3);
+}
+.beautifully,.business,img{
+    float: left;
+}
+.business{
+    margin-left: 316px;
+    padding-top: 114px;
+}
+.business h2,.beautifully h2{
+    font-size: 20px;
+    line-height: 32px;
+    margin-bottom: 35px;
+}
+.business p,.beautifully p{
+    font-size: 16px;
+    line-height: 28px;
+}
+.business h2,.business p{
+    width: 322px;
+    margin-left: 0;
+}
+.beautifully h2,.beautifully p{
+    width: 306px;
+    margin-left: 99px;
+}
+.business img{
+    margin-bottom: 153px;
+}
+.beautifully{
+    margin-top: 193px;
+}
+.beautifully img{
+    margin-top: 113px;
+    position: relative;
+    left: -171px;
+}
+.team{
+    width: 1600px;
+    height: 1084px;
+    border-bottom:1px solid rgba(225,225,225,0.3);
+}
+.team h2{
+    font-size: 42px;
+    padding-top: 100px;
+    margin-bottom: 36px;
+    text-align: center;
+}
+.team p{
+    font-size: 18px;
+    width: 700px;
+    text-align: center;
+    margin-bottom: 63px;
+}
+.people{
+    margin-left: 314px;
+    position: relative;
+}
+.people img{
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+.touch img{
+    position: absolute;
+    left: 0;
+    opacity:0.7;
+    display: none;
+}
+.photo1:hover .touch img{
+    display: block;
+}
+.subject{
+    width: 1600px;
+    height: 700px;
+}
+.email{
+    width: 469px;
+    height: 560px;
+    border: 1px solid rgba(225,225,225,0.5);
+    border-radius: 20px;
+    margin-top: 70px;
+    margin-left: 314px;
+    float: left;
+}
+.email label{
+    font-size: 16px;
+    text-align: center;
+    display: block;
+    padding-top: 50px;
+    margin-bottom: 47px;
+}
+.email input,.email textarea{
+    width: 348px;
+    height: 50px;
+    margin-left: 50px;
+    font-size: 14px;
+    padding-left: 22px;
+    margin-bottom: 30px;
+}
+.email textarea{
+    height: 144px;
+}
+.email button{
+    width: 370px;
+    height: 50px;
+    margin-left: 50px;
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    border: 1px solid black;
+}
+.phone{
+    float: right;
+    width: 355px;
+    height: 560px;
+    margin-right: 330px;
+}
+.phone h2{
+    font-size: 42px;
+    text-align: center;
+    padding-top: 158px;
+    margin-bottom: 39px;
+}
+.phone .custom{
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 71px;
+}
+.phone address{
+    font-style: normal;
+    margin-bottom: 38px;
+}
+.phone .number{
+    margin-bottom: 30px;
+}
+.phone a{
+    color: black;
+    text-decoration: none;
+}
+.footer{
+    width: 1600px;
+    height: 420px;
+    background: rgb(20,20,20);
+}
+.footer ul{
+    color: white;
+    font-size: 14px;
+    margin-bottom: 30px;
+    padding-left: 0;
+}
+.footer li{
+    color: rgba(225,225,225,0.3);
+    list-style-type: none;
+    margin-bottom: 30px;
+}
+.footer .massage{
+    float: left;
+    padding-top: 88px;
+    width: 170px;
+    margin-right: 130px;
+}
+.footer .first{
+    margin-left: 215px;
+}
+.enjoy li{
+    font-size: 18px;
+    width: 300px;
+}
+.enjoy img{
+    background: black;
+    margin-top: 12px;
 }
