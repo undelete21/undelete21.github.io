@@ -1,0 +1,283 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container{
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    box-sizing: border-box;
+}
+.menu{
+    width: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background-color: #1d2531;
+}
+.plan img{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.grid{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+.margin-left-16{
+    margin-left: 16px;
+}
+.submenu{
+    width: 250px;
+    background-color: #222c3c;
+    position: absolute;
+    left: 100px;
+    top: 0;
+    bottom: 0;
+}
+ li{
+    list-style: none;
+    font-size: 14px;
+    color: #b7c0cd;
+    margin-bottom: 26px;
+    margin-left: 28px;
+}
+.title{
+    font-size: 12px;
+    color: #5b6779;
+    margin-top: 30px;
+ }
+.Small-icons img{
+    margin-right: 16px;
+}
+.massage-number img,.title img{
+    position: absolute;
+    right: 29px;
+}
+.massage-number .highlight img{
+    position: absolute;
+    left: 0;
+}
+.Dividing-line{
+    margin-left: 28px;
+}
+.server{
+    position: absolute;
+    bottom: 23px;
+    left: 28px;
+}
+.server p{
+    font-size: 14px;
+    color: #ffffff;
+    margin-bottom: 13px;
+}
+.base{
+    position: relative;
+}
+.fill{
+    position: absolute;
+    top:43px;
+    left: 0;
+}
+.main{
+    position: absolute;
+    left: 350px;
+    top:0;
+    right: 0;
+    bottom: 0;
+}
+.topMenu{
+    border-bottom: 1px solid #e6e9ec;
+    height: 80px;
+}
+.topMenu h1{
+    font-size: 24px;
+    color: #354052;
+    line-height: 80px;
+    padding-left: 31px;
+}
+.topMenu img{
+    position: absolute;
+    right: 31px;
+    top: 39px;
+}
+.topMenu .name{
+    position: absolute;
+    right: 105px;
+    top: 24px;
+}
+.topMenu .margin-top-10{
+    position: absolute;
+    right: 80px;
+    top: 45px;
+}
+.topMenu .user{
+    position: absolute;
+    right: 182px;
+    top: 14px;
+}
+.massage-list{
+    width: 400px;
+    position: absolute;
+    bottom: 0;
+    top: 80px;
+    border-right: 1px solid #e6e9ec;
+}
+.search{
+    height: 70px;
+}
+.search input{
+    width: 325px;
+    height: 36px;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-left: 30px;
+    border-color: #e6e9ec;
+    position: relative;
+    font-size: 14px;
+    color: #9fa9ba;
+    padding-left: 15px;
+}
+.search img{
+    position: absolute;
+    top:29px;
+    left: 341px;
+}
+.chat{
+    height: 130px;
+    position: relative;
+    border-top: 1px solid #e6e9ec;
+    overflow: hidden;
+}
+.chat .avatar{
+    position: absolute;
+    top:15px;
+    left: 30px;
+}
+.chat h1{
+    font-size: 16px;
+    color: #2399f1;
+    position: absolute;
+    top: 25px;
+    left: 97px;
+    font-weight: normal;
+}
+.chat .massage{
+    font-size: 14px;
+    color: #585d68;
+    position: absolute;
+    top: 76px;
+    left: 30px;
+    right: 36px;
+}
+.chat .time{
+    position: absolute;
+    top: 28px;
+    right: 22px;
+    font-size: 14px;
+    color: #7f8fa4;
+}
+.Bessie-Berry{
+    position: absolute;
+    left: 400px;
+    right: 0;
+}
+.Action-Bar{
+    height: 69px;
+    border-bottom: 1px solid #e6e9ec;
+}
+.Action-Bar h1{
+    line-height: 69px;
+    font-size: 18px;
+    color: #585d68;
+    position: absolute;
+    left: 30px;
+}
+.arrows{
+    position: absolute;
+    right: 20px;
+    top: 18px;
+}
+.divider{
+    position: absolute;
+    right: 170px;
+    top: 18px;
+}
+.Tools{
+    position: absolute;
+    right: 195px;
+    top: 18px;
+}
+.one{
+    margin-top: 26px;
+    position: relative;
+}
+.one .star{
+    position: absolute;
+    left: 30px;
+    margin-top: 26px;
+}
+.one h1, .one .massage{
+    margin-left: 97px;
+}
+.one h1{
+    padding-top: 30px;
+    font-size: 16px;
+    color: #585d68;
+    font-weight: normal;
+}
+.one .massage{
+    padding-top: 12px;
+    padding-right: 27px;
+    font-size: 14px;
+    color: #585d68;
+}
+.one span{
+    font-size: 14px;
+    color: #7f8fa4;
+}
+.Dividing-line{
+    position: relative;
+    height: 20px;
+}
+.Dividing-line .Dividing-line-center{
+    height: 1px;
+    border-bottom: 1px solid #e6e9ec;
+    position: absolute;
+    left: -26px;
+    top:45px;
+    right: 0;
+}
+.Dividing-line .time{
+    font-size: 14px;
+    color: #7f8fa4;
+    width: 100px;
+    background-color: white;
+    position: absolute;
+    left: 50%;
+    top:35px;
+}
+.Dividing-line .time p{
+    text-align: center;
+}
+.one .Add-to{
+    position: absolute;
+    left: 97px;
+    top: 115px;
+}
+.one .add{
+    height: 54px;
+    border: 1px solid #e6e9ec;
+    font-size: 14px;
+    color: #585d68;
+    line-height: 54px;
+    position: absolute;
+    left: 151px;
+    top: 115px;
+    right: 20px;
+    box-sizing: border-box;
+    padding-left: 20px;
+}
